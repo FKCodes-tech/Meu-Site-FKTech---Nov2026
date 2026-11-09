@@ -2,6 +2,7 @@ import React from 'react';
 import { GraduationCap, Briefcase, FileText, CheckCircle2 } from 'lucide-react';
 import { SKILLS_CATEGORIES } from '../data/content';
 import { Language } from '../types';
+import infraImg from '../assets/images/hero_it_infrastructure.webp';
 
 interface AboutProps {
   language: Language;
@@ -95,7 +96,7 @@ export const About: React.FC<AboutProps> = ({ language, onOpenCvModal }) => {
             <div className="relative w-full max-w-sm rounded-2xl bg-slate-900 border border-slate-800 overflow-hidden shadow-xl">
               <div className="aspect-[4/3] w-full overflow-hidden bg-slate-950">
                 <img
-                  src="/src/assets/images/hero_it_infrastructure.webp"
+                  src={infraImg}
                   alt="Infraestrutura de TI e equipamentos gerenciados por Felizardo Franko"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   referrerPolicy="no-referrer"

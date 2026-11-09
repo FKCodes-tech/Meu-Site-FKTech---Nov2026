@@ -2,6 +2,7 @@ import React from 'react';
 import { MessageCircle, FileText, MapPin, ShieldCheck, PhoneCall, Calculator } from 'lucide-react';
 import { PERSONAL_INFO } from '../data/content';
 import { Language } from '../types';
+import portraitImg from '../assets/images/portrait_felizardo_franko.webp';
 
 interface HeroProps {
   language: Language;
@@ -133,7 +134,7 @@ export const Hero: React.FC<HeroProps> = ({ language, onOpenCvModal, onOpenBudge
                 {/* Photo container */}
                 <div className="relative aspect-square w-full rounded-xl overflow-hidden bg-slate-800">
                   <img
-                    src="/src/assets/images/portrait_felizardo_franko.webp"
+                    src={portraitImg}
                     alt="Felizardo Augusto José Franko – Técnico de Informática e Infraestrutura em Pemba"
                     className="w-full h-full object-cover object-top hover:scale-[1.02] transition-transform duration-500"
                     referrerPolicy="no-referrer"
