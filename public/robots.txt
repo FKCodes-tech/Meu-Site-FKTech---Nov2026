@@ -1,0 +1,7 @@
+# robots.txt for Fk Tech (Felizardo Franko)
+User-agent: *
+Allow: /
+
+# Sitemap location
+# TODO: atualizar com o domínio final quando publicado
+Sitemap: https://example.com/sitemap.xml
