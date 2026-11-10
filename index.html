@@ -9,13 +9,14 @@
       content="Técnico de Informática e Assistente Administrativo na RHDC e Fundador da FrankTech Serviços Digitais em Pemba, Cabo Delgado. Suporte L1/L2, redes estruturadas, Windows Server, hardware e formação."
     />
     
-    <!-- Canonical URL (TODO: atualizar com o domínio final quando publicado) -->
-    <link rel="canonical" href="https://example.com/" />
+    <!-- Canonical URL (se ligares um domínio próprio, troca https://fktech.vercel.app por ele) -->
+    <link rel="canonical" href="https://fktech.vercel.app/" />
+    <meta name="theme-color" content="#0f172a" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
 
     <!-- OpenGraph Metadata -->
     <meta property="og:type" content="website" />
-    <!-- TODO: atualizar com o domínio final quando publicado -->
-    <meta property="og:url" content="https://example.com/" />
+    <meta property="og:url" content="https://fktech.vercel.app/" />
     <meta property="og:title" content="Felizardo Franko (Fk Tech) – Suporte de TI, Infraestrutura e Serviços Digitais" />
     <meta
       property="og:description"
@@ -23,7 +24,7 @@
     />
     <meta property="og:site_name" content="Fk Tech – Felizardo Franko" />
     <meta property="og:locale" content="pt_MZ" />
-    <meta property="og:image" content="/og-image.jpg" />
+    <meta property="og:image" content="https://fktech.vercel.app/og-image.jpg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content="Felizardo Franko - Fk Tech Pemba Cabo Delgado" />
@@ -35,7 +36,7 @@
       name="twitter:description"
       content="Técnico de Informática, Formador e Fundador da FrankTech em Pemba, Cabo Delgado."
     />
-    <meta name="twitter:image" content="/og-image.jpg" />
+    <meta name="twitter:image" content="https://fktech.vercel.app/og-image.jpg" />
 
     <!-- Fonts: Plus Jakarta Sans + DM Sans + JetBrains Mono -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -53,6 +54,8 @@
     {
       "@context": "https://schema.org",
       "@type": "Person",
+      "url": "https://fktech.vercel.app/",
+      "image": "https://fktech.vercel.app/og-image.jpg",
       "name": "Felizardo Augusto José Franko",
       "alternateName": "Fk Tech",
       "jobTitle": "Técnico de Informática e Assistente Administrativo",
@@ -86,7 +89,13 @@
     </script>
   </head>
   <body class="bg-slate-950 text-slate-100 antialiased selection:bg-cyan-500/30 selection:text-cyan-200">
-    <div id="root"></div>
+    <div id="root">
+      <noscript>
+        <h1>Felizardo Franko (Fk Tech) – Suporte de TI, Redes e Serviços Digitais em Pemba</h1>
+        <p>Suporte técnico L1/L2, redes estruturadas, Windows Server e Active Directory, manutenção de hardware, formação em informática e serviços digitais (FrankTech). Pemba, Cabo Delgado, Moçambique.</p>
+        <p>WhatsApp: +258 84 200 1781 · E-mail: felizardofrankoo@gmail.com</p>
+      </noscript>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
